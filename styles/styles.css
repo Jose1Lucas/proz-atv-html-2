@@ -53,6 +53,24 @@ main p {
     text-align: justify;
 }
 
+.table {
+    display: flex;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td, th{
+    color: #fff;
+    background-color: #000;
+}
+
+td:hover, th:hover {
+    color: #000;
+    background-color: #fff;
+}
+
 footer {
     text-align: center;
     background-color: #fb0000;
